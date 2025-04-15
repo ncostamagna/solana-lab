@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 // program id
-declare_id!("");
+declare_id!("81btYg7HwTMjLDR8ScxjLb3QPaaPnWQQ88hBboCRpFRX");
 
 pub const ANCHOR_DISCRIMINATOR_SIZE: usize = 8;
 
@@ -14,11 +14,19 @@ pub mod favorites {
         number: u64,
         color: String,
         hobbies: Vec<String>,
-    ) -> Return<()> {
+    ) -> Result<()> {
         msg!("Greattings from {}", context.program_id);
         let user_public_key = context.accounts.user.key();
 
-        msg!("User {user_public_key}'s favorite color is {number}, favorite color is {color}, favorite hobbies is {hobbies:?} ")
+        msg!("User {user_public_key}'s favorite color is {number}, favorite color is {color}, favorite hobbies is {hobbies:?} ");
+
+        context.accounts.favorites.set_inner(Favorites {
+            number,
+            color,
+            hobbies,
+        });
+
+        Ok(())
     }
 }
 
@@ -34,6 +42,7 @@ pub struct Favorites {
     pub hobbies: Vec<String>,
 }
 
+#[derive(Accounts)]
 pub struct SetFavorites<'info> {
     #[account(mut)]
     pub user: Signer<'info>,

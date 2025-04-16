@@ -9,3 +9,18 @@ https://explorer.solana.com/address/[hash]/domains?cluster=devnet
 # add amount
 https://faucet.solana.com/
 ```
+
+
+# Commands
+
+```
+solana config set --url devnet
+
+# add sol
+solana airdrop 2
+
+anchor build
+
+anchor deploy
+
+```

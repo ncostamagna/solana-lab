@@ -24,3 +24,28 @@ anchor build
 anchor deploy
 
 ```
+
+# anchor
+
+With **avm** we can use the diff anchor versions
+```sh
+avm use 0.30.1
+
+anchor --version
+```
+
+# Voting prooject
+
+```sh
+npx create-solana-dapp
+npm i
+npm run dev
+```
+
+in other terminal
+```sh
+
+solana-test-validator
+
+```
+we can see the web in **localhost:3000**

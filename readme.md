@@ -1,5 +1,5 @@
-https://www.youtube.com/watch?v=amAq-WHAFs8&ab_channel=Solana
-1:11:00
+https://www.youtube.com/watch?v=amAq-WHAFs8&ab_channel=Solana <br />
+1:27:00 <br />
 https://beta.solpg.io/
 
 ```
@@ -51,3 +51,11 @@ solana-test-validator
 
 ```
 we can see the web in **localhost:3000**
+
+<br />
+we can install anchor-banktun in our anchor directory
+```sh
+cd anchor
+npm i anchor-bankrun
+
+```

@@ -1,10 +1,12 @@
 https://www.youtube.com/watch?v=amAq-WHAFs8&ab_channel=Solana
-37:00
+1:11:00
 https://beta.solpg.io/
 
 ```
 # see the history
 https://explorer.solana.com/address/[hash]/domains?cluster=devnet
+# if we go to Custom RPC URL we can use it locally
+
 
 # add amount
 https://faucet.solana.com/

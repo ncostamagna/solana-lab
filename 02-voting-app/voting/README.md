@@ -1,4 +1,4 @@
-# legacy-voting-dapp
+# legacy-voting
 
 ## Getting Started
 

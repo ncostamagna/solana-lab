@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=amAq-WHAFs8&ab_channel=Solana <br />
-2:01:30 <br />
+2:20:15 <br />
 https://beta.solpg.io/
 
 ```
@@ -68,4 +68,11 @@ we can install anchor-banktun in our anchor directory
 ```sh
 cd anchor
 npm i anchor-bankrun
+```
+
+we can see the values in:
+
+
+```
+https://dial.to/?action=solana-action:http://localhost:3000/api/vote
 ```

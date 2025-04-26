@@ -15,7 +15,23 @@ con esto, la bosta esta arranca.
 rustc 1.86.0 (05f9846f8 2025-03-31)
 anchor-cli 0.31.0
 solana-cli 2.1.21 (src:8a085eeb; feat:1416569292, client:Agave)
+
+sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 ```
 
 - we copy voting.so to test/fixtures
 - we write the test in voting.spec.ts
+
+```sh
+anchor test
+anchor test --skip-local-validator --skip-deploy
+```
+
+# Solana actions & blinks
+
+```sh
+npm install @solana/actions
+
+solana config get # check config
+```
+- we create a vote folder in app/api

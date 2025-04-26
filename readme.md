@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=amAq-WHAFs8&ab_channel=Solana <br />
-1:50:00 <br />
+2:01:30 <br />
 https://beta.solpg.io/
 
 ```
@@ -35,6 +35,16 @@ avm use 0.30.1
 
 anchor --version
 ```
+
+# Solana Actions
+
+especification for API
+
+<img src='images/1.png'>
+
+# Solana Blinks
+
+are Blockchain links, we can shear our link per each action
 
 # Voting prooject
 
